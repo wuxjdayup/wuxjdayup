@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,25 @@ namespace WindowsFormsApp1
         public Form2()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string connstr = "data source=192.168.3.8;database=Hotel_User;user id=wuxj;password=wuxj;pooling=false;charset=utf8";
+            MySqlConnection conn = new MySqlConnection(connstr);
+            string sql = "select * from roomsinfo ";
+            MySqlCommand mySqlCommand = new MySqlCommand(sql, conn);
+
+            conn.Open();
+
+            MySqlDataReader mySqlDataReader = mySqlCommand.ExecuteReader();
+            listBox1.Items.Clear();
+            while (mySqlDataReader.Read())
+            {
+               
+                listBox1.Items.Add(mySqlDataReader["Name"].ToString());
+            }
+         
         }
     }
 }
