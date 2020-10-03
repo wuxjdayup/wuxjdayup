@@ -1,0 +1,14 @@
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\bin\Debug\MySql.Data.dll
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\bin\Debug\BouncyCastle.Crypto.dll
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\bin\Debug\Renci.SshNet.dll
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\个人软件开发\c#\WindowsForms_Hotel_Service\HotelService\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
