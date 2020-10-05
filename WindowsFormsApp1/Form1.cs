@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Configuration;
 
 namespace WindowsFormsApp1
 {
@@ -38,9 +39,23 @@ namespace WindowsFormsApp1
                 MessageBox.Show("用户名或密码不能为空");
                 return;
             }
+
+            string serverip = ConfigurationManager.AppSettings["ServerIp"];
+
+            string dataBase = ConfigurationManager.AppSettings["DataBase"];
+
+            string user = ConfigurationManager.AppSettings["User"];
+
+            string passWord = ConfigurationManager.AppSettings["PassWord"];
+
+
             try
             {
-                string connstr = "data source=192.168.3.8;database=Hotel_User;user id=wuxj;password=wuxj;pooling=false;charset=utf8";
+                //string connstr = "data source=192.168.3.8;database=Hotel_User;user id=wuxj;password=wuxj;pooling=false;charset=utf8";
+                string connstr = "data source={0};database={1};user id={2};password={3};pooling=false;charset=utf8";
+                connstr = string.Format(connstr, new string[] {serverip,dataBase,user,passWord });
+     
+
                 MySqlConnection conn = new MySqlConnection(connstr);
                 string sql = "select * from usersinfo where username = @user and password = @pass";
                 MySqlCommand mySqlCommand = new MySqlCommand(sql, conn);
@@ -61,7 +76,6 @@ namespace WindowsFormsApp1
                 {
                     MessageBox.Show("用户名或密码错误！");
                 }
-
 
             }
             catch (Exception ex)
